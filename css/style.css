@@ -1,0 +1,46 @@
+@import url(composants/avatar.css);
+@import url(composants/button.css);
+@import url(composants/navbar.css);
+@import url(composants/features.css);
+@import url(composants/récapitulatif.css);
+@import url(composants/bas.css);
+@import url(composants/footer.css);
+@import url(composants/carrousel.css);
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Merriweather';font-size: 22px;
+}
+
+body{
+    background-image: linear-gradient(180deg, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%);
+}
+
+main {
+    padding: 5px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 1499px) {
+    .features {
+        width: 90%;
+    }
+    .récapitulatif {
+        width: 90%;
+    }
+    .sitefreego {
+        width: 40%;
+    }
+    .Formulaire {
+        width: 400px;
+    }
+
+
+}
